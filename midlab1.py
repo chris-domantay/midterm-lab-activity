@@ -1,0 +1,2 @@
+class labyu:
+    print("waaaahhhhhh")
