@@ -93,6 +93,7 @@ class Deque:
         raise NotImplementedError("Step 8: create self._items as an empty list")
 
     def add_front(self, item):
+        item.insert(0,1)
         """Step 9. Insert at position 0."""
         raise NotImplementedError("Step 9: insert the item at index 0")
 

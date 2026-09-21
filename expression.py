@@ -123,9 +123,9 @@ def _apply_operator(operator, left, right):
     if operator == "+":
         return left + right
     if operator == "-":
-            return left - right
+        return left - right
     if operator == "*":
-            return left * right
+        return left * right
     if operator == "/":
             if right == 0:
                  raise ZeroDivisionError("division by zero in the expression")
